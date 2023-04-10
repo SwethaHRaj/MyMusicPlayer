@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Player</title>
+    <link rel="stylesheet" href="MyMusicPlayer.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="musicLogo.png" alt="Spotify"> My Music Player</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songList">
+            <h3>My Favorite List</h3>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Inthandham</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i id="0" 
+                                class="fa-regular songItemPlay fa-circle-play fa-2xl"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Inthandham</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i id="1"
+                                class="fa-regular songItemPlay fa-circle-play fa-2xl"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Inthandham</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i id="2"
+                                class="fa-regular songItemPlay fa-circle-play fa-2xl"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Inthandham</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i id="3"
+                                class="fa-regular songItemPlay fa-circle-play fa-2xl"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Inthandham</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i id="4"
+                                class="fa-regular songItemPlay fa-circle-play fa-2xl"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Inthandham</span>
+                    <span class="songListPlay"><span class="timeStamp">05:34 <i id="5"
+                                class="fa-regular songItemPlay fa-circle-play fa-2xl"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- font awsome icons -->
+            <i class="fa-solid fa-backward-step fa-2xl" id="previous"></i>
+            <i class="fa-regular fa-circle-play fa-2xl" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step fa-2xl" id=next></i>
+        </div>
+        <div class="songInfo">
+            <img src="equalizer.gif" id="gif" width="50px" alt=""> <span id="masterSongName" >Inthandham</span>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/46e3a19bee.js" crossorigin="anonymous"></script>
+    <script src="MyMusicPlayer.js"></script>
+</body>
+
+</html>
