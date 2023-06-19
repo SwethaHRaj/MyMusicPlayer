@@ -42,7 +42,6 @@ nav ul li{
 
 .container{
     min-height: 65vh;
-    background-color: rgba(239, 228, 201, 0.765);
     background: url("background.png") no-repeat lightcyan;
     background-size: cover;
     font-family: Verdana, Tahoma, sans-serif;

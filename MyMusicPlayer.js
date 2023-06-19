@@ -55,6 +55,7 @@ const makeAllPlays = () => {
 
 
 Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) => {
+    if(element.classList.contains['fa-circle-play'])
     element.addEventListener('click', (e) => {
         console.log(e.target);
         makeAllPlays();
